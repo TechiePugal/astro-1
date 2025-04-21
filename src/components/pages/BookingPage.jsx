@@ -336,7 +336,7 @@ const BookingPage = () => {
             required
             style={{ color: "black" }}
           />
-          Date of Birth:
+          <p style={{ color: "black" }}>Date of Birth:</p>
           <input
             type="date"
             name="dob"
@@ -346,7 +346,7 @@ const BookingPage = () => {
             required
             style={{ color: "black" }}
           />
-          Time of Birth:
+          <p style={{ color: "black" }}>Time of Birth:</p>
           <div style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}>
             <input
               type="number"
