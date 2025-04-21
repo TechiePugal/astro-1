@@ -1,0 +1,289 @@
+/* Global Reset */
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Georgia', serif;
+  background: linear-gradient(to bottom, #1b0034, #260638);
+  color: #fff;
+}
+
+.app-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #280045, #2d0542);
+  padding: 50px 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 30px rgba(255, 229, 255, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "✦";
+  position: absolute;
+  font-size: 300px;
+  opacity: 0.03;
+  top: -50px;
+  right: -40px;
+  transform: rotate(45deg);
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.astro-image-container {
+  flex: 0 0 160px;
+}
+
+.astro-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #e2baff;
+  box-shadow: 0 0 20px rgba(226, 186, 255, 0.5);
+}
+
+.astro-description {
+  flex: 1;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #f3dbff;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #dfc1ff;
+  margin: 8px 0;
+}
+
+.bio {
+  font-size: 16px;
+  margin: 10px 0 20px;
+  color: #e9d9ff;
+}
+
+.book-btn {
+  background-color: #2a1a3b;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 10px #d9aaff;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #0025cb;
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(4px);
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffcaff;
+  font-family: 'Cinzel', serif;
+}
+
+/* Services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.service-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #320054, #290542);
+  box-shadow: 0 0 10px rgba(192, 135, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.testimonial-card {
+  background: #2c004a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 205, 255, 0.1);
+}
+
+.testimonial-rating span {
+  color: #ffda85;
+  font-size: 18px;
+}
+
+.testimonial-quote {
+  font-style: italic;
+  margin: 12px 0;
+  color: #e6d1ff;
+}
+
+.testimonial-client {
+  text-align: right;
+  font-weight: bold;
+  color: #ffd6fa;
+}
+
+/* CTA Section */
+.cta {
+  text-align: center;
+  background-color: #9a8500;
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 209, 255, 0.15);
+}
+
+.cta h2 {
+  font-size: 26px;
+  color: #ffd6fb;
+  font-family: 'Cinzel Decorative', serif;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  background-color: #321b48;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 0 10px #dfb6ff;
+}
+
+.cta button:hover {
+  background-color: #0025cb;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .astro-image-container {
+    flex: 0 0 120px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
+
+  .bio {
+    font-size: 14px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cta {
+    padding: 30px 20px;
+  }
+
+  .cta h2 {
+    font-size: 22px;
+  }
+
+  .cta button {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+}
+
+/* Responsive Styles for Extra Small Devices */
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+
+  .bio {
+    font-size: 12px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    padding: 20px 15px;
+  }
+
+  .cta h2 {
+    font-size: 18px;
+  }
+
+  .cta button {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+}
