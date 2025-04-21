@@ -91,6 +91,7 @@ body {
 
 .book-btn:hover {
   background-color: #0025cb;
+  color: white;
 }
 
 /* Section Styling */
@@ -128,6 +129,7 @@ body {
 
 .service-card:hover {
   transform: translateY(-5px);
+  
 }
 
 .service-icon {
@@ -197,6 +199,7 @@ body {
 
 .cta button:hover {
   background-color: #0025cb;
+  color: white;
 }
 
 /* Responsive Styles for Mobile */
