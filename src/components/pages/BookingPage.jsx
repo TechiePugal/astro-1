@@ -16,128 +16,128 @@ const topicOptions = [
 ];
 
 const questionsMap = {
-    marriage: [
-      "When will I get married?",
-      "Will it be a love or arranged marriage?",
-      "Will my partner be supportive?",
-      "Any challenges in my marriage?",
-      "How many children will I have?",
-      "Will my in-laws be supportive?",
-      "Is there delay in marriage?",
-      "Foreign partner possibility?",
-      "Will it be a happy marriage?",
-      "What kind of partner is suitable?"
-    ],
-    career: [
-      "What is the best career path for me?",
-      "Will I get a government job?",
-      "Is there any job change coming?",
-      "Should I switch industries?",
-      "Is there a promotion ahead?",
-      "Will I go abroad for work?",
-      "Is my career stable?",
-      "Which field is lucky for me?",
-      "Should I start a business?",
-      "Will I be successful in the corporate sector?"
-    ],
-    education: [
-      "Will I pass my exams with good grades?",
-      "What should I major in?",
-      "Will I pursue higher studies?",
-      "Is there a scholarship opportunity for me?",
-      "Should I take up a new course or skill?",
-      "Will my studies lead to a successful career?",
-      "Am I making the right choice in my education?",
-      "How will my academic performance affect my future?",
-      "Should I consider studying abroad?",
-      "Will I face any challenges in my education?"
-    ],
-    property: [
-      "Will I own a house in the future?",
-      "Will my property investments be successful?",
-      "Should I buy a property now or wait?",
-      "What type of property should I invest in?",
-      "Will I face any issues with property ownership?",
-      "Is the current property market favorable for buying?",
-      "Will I get good returns on property investments?",
-      "Should I consider real estate for financial growth?",
-      "Will I face any legal issues related to property?",
-      "Is it a good time to sell my property?"
-    ],
-    child: [
-      "Will I have children in the future?",
-      "How many children will I have?",
-      "When will I have my first child?",
-      "What will my child's personality be like?",
-      "Will I be a good parent?",
-      "What challenges will I face as a parent?",
-      "Will I have a boy or a girl?",
-      "Will I be able to balance my career and children?",
-      "What is the right age to have children?",
-      "Should I consider adoption?"
-    ],
-    health: [
-      "Am I in good health right now?",
-      "Will I have any major health issues in the future?",
-      "Should I be concerned about my current health habits?",
-      "What steps can I take to improve my health?",
-      "Am I at risk for any diseases?",
-      "Will I live a long and healthy life?",
-      "Should I make changes to my lifestyle for better health?",
-      "What health concerns should I monitor closely?",
-      "Will I have any major surgeries or treatments?",
-      "How can I maintain my mental well-being?"
-    ],
-    finance: [
-      "Will my financial situation improve?",
-      "Am I making good financial decisions?",
-      "Should I invest in stocks or bonds?",
-      "What is the best way to save money?",
-      "Will I face any financial hardships in the near future?",
-      "Should I start a new business venture?",
-      "Am I on track to achieve financial independence?",
-      "How can I improve my credit score?",
-      "What is the best way to manage my debt?",
-      "Will I be financially stable in the next 5 years?"
-    ],
-    spirituality: [
-      "What is my spiritual path?",
-      "Will I find inner peace?",
-      "Am I on the right path spiritually?",
-      "Will my spiritual practices help me in my daily life?",
-      "Is there a deeper purpose for me in life?",
-      "How can I strengthen my spiritual connection?",
-      "Should I pursue a more religious or spiritual lifestyle?",
-      "What lessons am I meant to learn in my spiritual journey?",
-      "Will I experience a spiritual awakening?",
-      "How can I contribute to the spiritual growth of others?"
-    ],
-    relationships: [
-      "Will I meet someone special soon?",
-      "Will I have a long-lasting and happy relationship?",
-      "Am I in the right relationship?",
-      "Should I work on improving my current relationship?",
-      "Will my relationship face any major challenges?",
-      "What can I do to improve my communication with my partner?",
-      "Is there someone in my life I should reconnect with?",
-      "Should I trust my partner more?",
-      "Will I have a healthy relationship with my family?",
-      "What lessons will I learn from my relationships?"
-    ],
-    travel: [
-      "Will I travel abroad in the near future?",
-      "Should I take a vacation this year?",
-      "Will I enjoy my upcoming trips?",
-      "What destination is best suited for me?",
-      "Will I travel for work or leisure?",
-      "Will I meet new people on my travels?",
-      "Is there a significant life change waiting for me during my travels?",
-      "How can I make my travels more fulfilling?",
-      "What type of travel experience will benefit me the most?",
-      "Should I travel more or focus on other aspects of life?"
-    ]
-  };
-  
+  marriage: [
+    "When will I get married?",
+    "Will it be a love or arranged marriage?",
+    "Will my partner be supportive?",
+    "Any challenges in my marriage?",
+    "How many children will I have?",
+    "Will my in-laws be supportive?",
+    "Is there delay in marriage?",
+    "Foreign partner possibility?",
+    "Will it be a happy marriage?",
+    "What kind of partner is suitable?"
+  ],
+  career: [
+    "What is the best career path for me?",
+    "Will I get a government job?",
+    "Is there any job change coming?",
+    "Should I switch industries?",
+    "Is there a promotion ahead?",
+    "Will I go abroad for work?",
+    "Is my career stable?",
+    "Which field is lucky for me?",
+    "Should I start a business?",
+    "Will I be successful in the corporate sector?"
+  ],
+  education: [
+    "Will I pass my exams with good grades?",
+    "What should I major in?",
+    "Will I pursue higher studies?",
+    "Is there a scholarship opportunity for me?",
+    "Should I take up a new course or skill?",
+    "Will my studies lead to a successful career?",
+    "Am I making the right choice in my education?",
+    "How will my academic performance affect my future?",
+    "Should I consider studying abroad?",
+    "Will I face any challenges in my education?"
+  ],
+  property: [
+    "Will I own a house in the future?",
+    "Will my property investments be successful?",
+    "Should I buy a property now or wait?",
+    "What type of property should I invest in?",
+    "Will I face any issues with property ownership?",
+    "Is the current property market favorable for buying?",
+    "Will I get good returns on property investments?",
+    "Should I consider real estate for financial growth?",
+    "Will I face any legal issues related to property?",
+    "Is it a good time to sell my property?"
+  ],
+  child: [
+    "Will I have children in the future?",
+    "How many children will I have?",
+    "When will I have my first child?",
+    "What will my child's personality be like?",
+    "Will I be a good parent?",
+    "What challenges will I face as a parent?",
+    "Will I have a boy or a girl?",
+    "Will I be able to balance my career and children?",
+    "What is the right age to have children?",
+    "Should I consider adoption?"
+  ],
+  health: [
+    "Am I in good health right now?",
+    "Will I have any major health issues in the future?",
+    "Should I be concerned about my current health habits?",
+    "What steps can I take to improve my health?",
+    "Am I at risk for any diseases?",
+    "Will I live a long and healthy life?",
+    "Should I make changes to my lifestyle for better health?",
+    "What health concerns should I monitor closely?",
+    "Will I have any major surgeries or treatments?",
+    "How can I maintain my mental well-being?"
+  ],
+  finance: [
+    "Will my financial situation improve?",
+    "Am I making good financial decisions?",
+    "Should I invest in stocks or bonds?",
+    "What is the best way to save money?",
+    "Will I face any financial hardships in the near future?",
+    "Should I start a new business venture?",
+    "Am I on track to achieve financial independence?",
+    "How can I improve my credit score?",
+    "What is the best way to manage my debt?",
+    "Will I be financially stable in the next 5 years?"
+  ],
+  spirituality: [
+    "What is my spiritual path?",
+    "Will I find inner peace?",
+    "Am I on the right path spiritually?",
+    "Will my spiritual practices help me in my daily life?",
+    "Is there a deeper purpose for me in life?",
+    "How can I strengthen my spiritual connection?",
+    "Should I pursue a more religious or spiritual lifestyle?",
+    "What lessons am I meant to learn in my spiritual journey?",
+    "Will I experience a spiritual awakening?",
+    "How can I contribute to the spiritual growth of others?"
+  ],
+  relationships: [
+    "Will I meet someone special soon?",
+    "Will I have a long-lasting and happy relationship?",
+    "Am I in the right relationship?",
+    "Should I work on improving my current relationship?",
+    "Will my relationship face any major challenges?",
+    "What can I do to improve my communication with my partner?",
+    "Is there someone in my life I should reconnect with?",
+    "Should I trust my partner more?",
+    "Will I have a healthy relationship with my family?",
+    "What lessons will I learn from my relationships?"
+  ],
+  travel: [
+    "Will I travel abroad in the near future?",
+    "Should I take a vacation this year?",
+    "Will I enjoy my upcoming trips?",
+    "What destination is best suited for me?",
+    "Will I travel for work or leisure?",
+    "Will I meet new people on my travels?",
+    "Is there a significant life change waiting for me during my travels?",
+    "How can I make my travels more fulfilling?",
+    "What type of travel experience will benefit me the most?",
+    "Should I travel more or focus on other aspects of life?"
+  ]
+};
+
 
 const BookingPage = () => {
   const [selectedTab, setSelectedTab] = useState("common");
@@ -250,64 +250,64 @@ const BookingPage = () => {
       </div>
 
       <form className="booking-form" onSubmit={handleSubmit}>
-      {selectedTab === "common" && (
-  <>
-    <h3 style={{ color: "black" }}>Select your Consultation Topic(s)</h3>
-    <Select
-      isMulti
-      options={topicOptions}
-      value={selectedTopics}
-      onChange={handleTopicChange}
-      placeholder="Select topics like Marriage, Career..."
-      styles={{
-        control: (base) => ({
-          ...base,
-          color: "black",
-        }),
-        input: (base) => ({
-          ...base,
-          color: "black",
-        }),
-        placeholder: (base) => ({
-          ...base,
-          color: "black",
-        }),
-        singleValue: (base) => ({
-          ...base,
-          color: "black",
-        }),
-        multiValueLabel: (base) => ({
-          ...base,
-          color: "black",
-        }),
-        option: (base) => ({
-          ...base,
-          color: "black", // Ensures the options text is black
-        }),
-      }}
-    />
-    {selectedTopics.length > 0 && (
-      <div className="question-section">
-        <h4 style={{ color: "black" }}>Select Relevant Questions</h4>
-        <ul style={{ listStyle: "none", paddingLeft: 0 }}>
-          {getRelevantQuestions().map((q, idx) => (
-            <li key={idx}>
-              <label style={{ display: "block", marginBottom: "5px", color: "black" }}>
-                <input
-                  type="checkbox"
-                  checked={selectedQuestions.includes(q)}
-                  onChange={() => handleQuestionToggle(q)}
-                  style={{ marginRight: "8px", color: "black" }}
-                />
-                {q}
-              </label>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )}
-  </>
-)}
+        {selectedTab === "common" && (
+          <>
+            <h3 style={{ color: "black" }}>Select your Consultation Topic(s)</h3>
+            <Select
+              isMulti
+              options={topicOptions}
+              value={selectedTopics}
+              onChange={handleTopicChange}
+              placeholder="Select topics like Marriage, Career..."
+              styles={{
+                control: (base) => ({
+                  ...base,
+                  color: "black",
+                }),
+                input: (base) => ({
+                  ...base,
+                  color: "black",
+                }),
+                placeholder: (base) => ({
+                  ...base,
+                  color: "black",
+                }),
+                singleValue: (base) => ({
+                  ...base,
+                  color: "black",
+                }),
+                multiValueLabel: (base) => ({
+                  ...base,
+                  color: "black",
+                }),
+                option: (base) => ({
+                  ...base,
+                  color: "black", // Ensures the options text is black
+                }),
+              }}
+            />
+            {selectedTopics.length > 0 && (
+              <div className="question-section">
+                <h4 style={{ color: "black" }}>Select Relevant Questions</h4>
+                <ul style={{ listStyle: "none", paddingLeft: 0 }}>
+                  {getRelevantQuestions().map((q, idx) => (
+                    <li key={idx}>
+                      <label style={{ display: "block", marginBottom: "5px", color: "black" }}>
+                        <input
+                          type="checkbox"
+                          checked={selectedQuestions.includes(q)}
+                          onChange={() => handleQuestionToggle(q)}
+                          style={{ marginRight: "8px", color: "black" }}
+                        />
+                        {q}
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </>
+        )}
 
 
         {selectedTab === "personal" && (
@@ -336,6 +336,7 @@ const BookingPage = () => {
             required
             style={{ color: "black" }}
           />
+          Date of Birth:
           <input
             type="date"
             name="dob"
@@ -345,61 +346,62 @@ const BookingPage = () => {
             required
             style={{ color: "black" }}
           />
-<div style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}>
-  <input
-    type="number"
-    name="tobHour"
-    placeholder="Hour"
-    min="1"
-    max="12"
-    value={formData.tobHour}
-    onChange={handleChange}
-    required
-    style={{
-      flex: 1,
-      padding: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '6px',
-      fontSize: '14px',
-      transition: 'border 0.2s ease-in-out',
-    }}
-  />
-  <input
-    type="number"
-    name="tobMinute"
-    placeholder="Minute"
-    min="0"
-    max="59"
-    value={formData.tobMinute}
-    onChange={handleChange}
-    required
-    style={{
-      flex: 1,
-      padding: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '6px',
-      fontSize: '14px',
-      transition: 'border 0.2s ease-in-out',
-    }}
-  />
-  <select
-    name="tobPeriod"
-    value={formData.tobPeriod}
-    onChange={handleChange}
-    required
-    style={{
-      flex: 1,
-      padding: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '6px',
-      fontSize: '14px',
-      transition: 'border 0.2s ease-in-out',
-    }}
-  >
-    <option value="AM">AM</option>
-    <option value="PM">PM</option>
-  </select>
-</div>
+          Time of Birth:
+          <div style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}>
+            <input
+              type="number"
+              name="tobHour"
+              placeholder="Hour"
+              min="1"
+              max="12"
+              value={formData.tobHour}
+              onChange={handleChange}
+              required
+              style={{
+                flex: 1,
+                padding: '10px',
+                border: '1px solid #ccc',
+                borderRadius: '6px',
+                fontSize: '14px',
+                transition: 'border 0.2s ease-in-out',
+              }}
+            />
+            <input
+              type="number"
+              name="tobMinute"
+              placeholder="Minute"
+              min="0"
+              max="59"
+              value={formData.tobMinute}
+              onChange={handleChange}
+              required
+              style={{
+                flex: 1,
+                padding: '10px',
+                border: '1px solid #ccc',
+                borderRadius: '6px',
+                fontSize: '14px',
+                transition: 'border 0.2s ease-in-out',
+              }}
+            />
+            <select
+              name="tobPeriod"
+              value={formData.tobPeriod}
+              onChange={handleChange}
+              required
+              style={{
+                flex: 1,
+                padding: '10px',
+                border: '1px solid #ccc',
+                borderRadius: '6px',
+                fontSize: '14px',
+                transition: 'border 0.2s ease-in-out',
+              }}
+            >
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </div>
 
 
           <div className="autocomplete-wrapper">
