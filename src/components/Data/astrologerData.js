@@ -1,5 +1,5 @@
 const astrologerData = {
-    name: "Meera Devi",
+    name: "Meera Devi Guru",
     experience: "25+ Years",
     imageUrl: "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?t=st=1745217454~exp=1745221054~hmac=ddfc6888083eb975776fdf0106251d20dbfa637467c9030d51ef89e2711375eb&w=826",
     bio: "Specializing in love, career, health, and spiritual guidance. Trusted by thousands across the globe. Let the stars guide your path.",
