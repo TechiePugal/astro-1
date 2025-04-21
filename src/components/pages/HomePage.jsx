@@ -34,7 +34,7 @@ const HomePage = () => {
           {astrologerData.services.map((service, index) => (
             <div key={index} className="service-card">
               <img src={service.icon} alt={service.name} className="service-icon" />
-              <h3>{service.name}</h3>
+              <h3 style={{ color: "yellow" }}>{service.name}</h3>
               <p>{service.description}</p>
             </div>
           ))}
